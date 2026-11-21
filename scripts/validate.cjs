@@ -1,0 +1,37 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const root = path.join(__dirname, '..');
+const context = vm.createContext({window:{}});
+const run = file => vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
+run('data/manifest.js');
+const manifest = context.window.ENGLISH_MANIFEST;
+assert(Array.isArray(manifest) && manifest.length);
+const dates = new Set(), ids = new Set(), terms = new Set();
+const normalize = term => term.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
+manifest.forEach((entry,i) => {
+ assert.equal(entry.day,i+1,'Days must be contiguous and ordered');
+ assert.equal(entry.file,`data/day-${String(entry.day).padStart(2,'0')}.js`);
+ assert.equal(entry.date,new Date(Date.UTC(2026,10,18+i)).toISOString().slice(0,10));
+ assert(!dates.has(entry.date),'Duplicate publication date'); dates.add(entry.date);
+ run(entry.file);
+ const cards=context.window.ENGLISH_LESSONS[entry.day];
+ assert.equal(cards.length,30);
+ assert.equal(cards.filter(c=>c.kind==='phrasal').length,10);
+ assert.equal(cards.filter(c=>c.kind==='vocab').length,20);
+ cards.forEach((card,j)=>{
+  assert.equal(card.day,entry.day);
+  assert.equal(card.id,`d${String(entry.day).padStart(2,'0')}-${String(j+1).padStart(2,'0')}`);
+  assert(!ids.has(card.id));ids.add(card.id);
+  for(const field of ['term','ipa','pos','meaning','pattern','nuance','contrast','tip']) assert(typeof card[field]==='string' && card[field].trim(),`${card.id}: missing ${field}`);
+  assert.equal(card.examples.length,3);
+  card.examples.forEach(e=>assert(e.en?.trim() && e.ko?.trim()));
+  const term=normalize(card.term);
+  if(entry.day>3) assert(!terms.has(term),`Repeated term: ${term}`);
+  terms.add(term);
+ });
+});
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+for(const [,script] of html.matchAll(/<script>([\s\S]*?)<\/script>/g)) new vm.Script(script);
+console.log(`Validated ${manifest.length} days / ${ids.size} cards; new terms have no duplicates.`);
