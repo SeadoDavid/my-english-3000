@@ -51,7 +51,7 @@ window.ENGLISH_GUIDE = (() => {
    const chunks=Array.from(label); for(let j=0;j<chunks.length;j+=10)shape('text',{x:x+80,y:96+Math.floor(j/10)*22,'text-anchor':'middle','font-size':17,fill:'#183b56'},chunks.slice(j,j+10).join(''));
    if(i<2)shape('path',{d:`M ${x+164} 105 h 12 m -5 -5 l 5 5 -5 5`,stroke:'#315e80',fill:'none','stroke-width':2});
   });
-  shape('text',{x:24,y:192,'font-size':16,fill:'#4d6070'},'상황                 핵심 작용                 결과');
+  ['상황','핵심 작용','결과'].forEach((label,i)=>shape('text',{x:100+i*180,y:184,'text-anchor':'middle','font-size':16,fill:'#4d6070'},label));
   f.append(svg,el('figcaption',data[4]));return f;
  }
  function render(card,root){
