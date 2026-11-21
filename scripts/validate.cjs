@@ -35,3 +35,20 @@ manifest.forEach((entry,i) => {
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const [,script] of html.matchAll(/<script>([\s\S]*?)<\/script>/g)) new vm.Script(script);
 console.log(`Validated ${manifest.length} days / ${ids.size} cards; new terms have no duplicates.`);
+new vm.Script(fs.readFileSync(path.join(root,'learning.js'),'utf8'));
+run('learning.js');
+for(const entry of manifest){
+ const cards=context.window.ENGLISH_LESSONS[entry.day];
+ const visualCount=cards.filter(c=>c.visual||context.window.ENGLISH_GUIDE.visuals[c.id]).length;
+ assert(visualCount>=5&&visualCount<=10,`Day ${entry.day}: need 5–10 concepts`);
+ if(entry.day>=4)for(const c of cards){
+  assert(c.grammar?.trim(),`${c.id}: missing grammar`);
+  assert(c.pronunciation?.stress?.trim()&&c.pronunciation?.practice?.trim(),`${c.id}: missing pronunciation`);
+  assert(['verified','unverified'].includes(c.etymology?.status),`${c.id}: missing etymology status`);
+  assert(c.etymology.text?.trim());
+  if(c.etymology.status==='verified')assert(/^https:\/\//.test(c.etymology.source)&&/^\d{4}-\d{2}-\d{2}$/.test(c.etymology.checked));
+  if(c.visual){assert(c.visual.length===5&&c.visual.every(v=>typeof v==='string'&&v.trim()));assert(c.visual.slice(1,4).every(v=>Array.from(v).length<=20),'Diagram labels too long');}
+ }
+}
+assert(html.includes('value="0.65"')&&html.includes('u.rate=Number'));
+console.log('Validated grammar, source status, pronunciation, and 5–10 SVG concepts per day.');
