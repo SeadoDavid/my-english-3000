@@ -1,2 +1,7 @@
-*
-!index.html
+.git/
+.github/
+scripts/
+README.md
+AGENTS.md
+package.json
+wrangler.jsonc
