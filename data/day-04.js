@@ -70,14 +70,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "rule 끝의 /l/을 out에 이어 준다.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "rule out",
-      "검토 후보 A·B·C",
-      "B의 가능성 배제",
-      "후보 A·C",
-      "cannot rule out: 아직 가능성이 남아 있음"
-    ]
+    }
   },
   {
     "id": "d04-03",
@@ -149,14 +142,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "to는 보통 약하게 /tə/로 발음한다.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "look forward to",
-      "미래의 만남",
-      "기쁘게 기다림",
-      "meeting you",
-      "to는 전치사: to meet가 아니라 to meeting"
-    ]
+    }
   },
   {
     "id": "d04-05",
@@ -264,14 +250,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "phase 끝을 /s/가 아닌 유성음 /z/로 낸다.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "phase out",
-      "전체 사용",
-      "단계별 감축",
-      "사용 종료",
-      "cut back은 감축; phase out은 결국 폐지"
-    ]
+    }
   },
   {
     "id": "d04-08",
@@ -417,14 +396,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "첫 음절 ten에 강세.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "tentative",
-      "아직 미확정",
-      "추후 변경 가능",
-      "잠정 계획",
-      "temporary는 기간이 짧음; tentative는 미확정"
-    ]
+    }
   },
   {
     "id": "d04-12",
@@ -652,14 +624,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "big 부분에 강세를 둔다.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "ambiguous",
-      "하나의 문장",
-      "두 가지 해석",
-      "A 또는 B",
-      "vague: 구체성이 부족 / ambiguous: 해석이 여러 개"
-    ]
+    }
   },
   {
     "id": "d04-18",
@@ -697,14 +662,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "active의 첫 음절에 주강세.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "proactive",
-      "문제 발생 전",
-      "미리 점검",
-      "문제 예방",
-      "reactive: 문제가 생긴 뒤 대응"
-    ]
+    }
   },
   {
     "id": "d04-19",
@@ -742,14 +700,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "zil에 강세, /z/는 성대를 울린다.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "resilient",
-      "안정 상태",
-      "충격·좌절",
-      "다시 회복",
-      "strong은 힘; resilient는 충격 뒤 회복력"
-    ]
+    }
   },
   {
     "id": "d04-20",
@@ -1053,14 +1004,7 @@ window.ENGLISH_LESSONS[4] = [
     "pronunciation": {
       "stress": "첫 음절 /æ/에 강세.",
       "practice": "일반 속도로 리듬을 먼저 듣고 느린 속도로 따라 한 뒤 다시 일반 속도로 말한다. 모든 음절을 같은 길이와 세기로 읽지 않는다."
-    },
-    "visual": [
-      "allocate",
-      "한정된 예산",
-      "목적별로 배정",
-      "팀 A·팀 B",
-      "allocate는 미리 배정; spend는 실제 사용"
-    ]
+    }
   },
   {
     "id": "d04-28",

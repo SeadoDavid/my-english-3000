@@ -20,9 +20,11 @@ This is also a static site compatible with Cloudflare Pages: repository root, no
 
 ## Detailed lesson contract (Day 04 onward)
 
+Publish text-based lesson notes and audio controls. Do not add illustrations or concept diagrams to daily lessons.
+
 Keep the core card fields and three original English/Korean example pairs. Add `grammar`, `pronunciation: {stress, practice}` and `etymology: {status, text, source?, checked?}` to each new card. `verified` requires a source actually read plus its ISO verification date; summarize in original Korean. If the origin cannot be established, use `unverified` and state that explicitly; do not invent an origin from a mnemonic. Day 04 vocabulary origins were checked against the individual Etymonline entries on 2026-11-21. Its ten multiword expressions have explicitly unverified historical origins.
 
-Add `visual: [term, situation, action, result, comparisonCaption]` to 5–10 core cards per day. Use short labels (at most 20 characters for the three diagram nodes). `learning.js` renders safe, accessible SVGs without injected markup. Its supplemental six diagrams per legacy day preserve Days 01–03 byte-for-byte; Day 04 has eight concepts. IPA basics and sound-specific lip/tongue/error guidance are shared across every day. Normal (0.95) and slow (0.65) TTS rates use the saved selected English voice; exact timing depends on the browser/OS voice engine. Do not replace the user's voice preference.
+IPA basics and sound-specific lip/tongue/error guidance are shared across every day. Normal (0.95) and slow (0.65) TTS rates use the saved selected English voice; exact timing depends on the browser/OS voice engine. Do not replace the user's voice preference.
 
 The daily author should prioritize useful US conversational/workplace English at intermediate-to-advanced level, verify idiomatic use, and check all previous terms (including inflected duplicates). `weigh up` is retained from the published Day 04 and labeled chiefly British, with US alternatives. `touch base with` is retained and labeled an idiom within the multiword-expression group.
 
