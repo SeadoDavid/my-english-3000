@@ -22,7 +22,19 @@ window.ENGLISH_GUIDE = (() => {
  function render(card,root){
   const add=(title,text)=>{if(!text)return;const d=el('div');d.className='note';d.append(el('b',title+' · '),document.createTextNode(text));root.append(d);};
   add('문법 자세히',card.grammar);
-  if(card.etymology){const e=card.etymology;add(e.status==='verified'?'출처 확인 어원':'어원 확인 상태',e.text);if(e.source){const a=el('a','어원 출처 · Etymonline ('+e.checked+')');a.href=e.source;a.target='_blank';a.rel='noopener noreferrer';root.append(a);}}
+  const origin = card.etymology;
+  if (origin?.status === 'verified' && origin.text?.trim() && /^https:\/\//.test(origin.source)) {
+   add('출처 확인 어원', origin.text);
+   const source = el('a', '어원 출처 · Etymonline (' + origin.checked + ')');
+   source.href = origin.source;
+   source.target = '_blank';
+   source.rel = 'noopener noreferrer';
+   root.append(source);
+  } else {
+   const note = el('div', '어원 확인 안 됨');
+   note.className = 'note';
+   root.append(note);
+  }
   if(card.pronunciation){add('강세·연습',card.pronunciation.stress+' '+card.pronunciation.practice);}
   const relevant=sounds.filter(([s])=>card.ipa.includes(s)).slice(0,3);
   relevant.forEach(([sound,note])=>add('/'+sound+'/ 입술·혀·한국어식 실수',note));

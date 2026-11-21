@@ -29,7 +29,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "with는 전치사이므로 뒤에 명사·대명사·동명사를 쓴다. put up with it (O), put it up with (X).",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "put의 /ʊ/를 짧게 낸다.",
@@ -65,7 +65,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "분리 가능한 구동사. rule out the option / rule the option out 모두 가능하나 대명사는 rule it out. rule out doing도 가능.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "rule 끝의 /l/을 out에 이어 준다.",
@@ -101,7 +101,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "분리 가능: carry out the plan / carry the plan out. 대명사는 carry it out. 수동태 be carried out도 흔하다.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "첫 음절에 강세를 두고 out으로 이어 준다.",
@@ -137,7 +137,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "to는 부정사 표지가 아니라 전치사다. look forward to meeting (O), look forward to meet (X).",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "to는 보통 약하게 /tə/로 발음한다.",
@@ -173,7 +173,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "get the message across to someone처럼 내용과 대상을 구별한다. 대명사는 get it across. My point got across처럼 뜻이 전달되었다는 자동사 용법도 있다.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "across의 두 번째 음절에 강세를 둔다.",
@@ -209,7 +209,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "on 뒤에 학문·기술 같은 명사를 쓴다. brush up on it에서 it을 brush와 up 사이로 옮기지 않는다.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "brush의 /ʃ/ 뒤에 모음을 덧붙이지 않는다.",
@@ -245,7 +245,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "분리 가능: phase the system out / phase it out. be phased out은 단계적으로 폐지되다라는 수동태.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "phase 끝을 /s/가 아닌 유성음 /z/로 낸다.",
@@ -281,7 +281,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "weigh up the options / weigh them up. 미국식 대안 weigh the options에서는 up 없이 목적어를 바로 쓴다.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "weigh의 gh는 소리 내지 않는다.",
@@ -317,7 +317,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "to 뒤에 기대·기준을 나타내는 명사나 대명사. live up to it (O). live는 여기서 동사 /lɪv/이다.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "live는 동사이므로 /laɪv/가 아니라 /lɪv/.",
@@ -353,7 +353,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "touch base 자체가 관용구이며 엄밀히는 전형적인 동사+불변화사 구동사가 아니다. 학습 편의상 구동사·다어 표현 묶음에 포함한다. with는 사람, about/on은 주제.",
     "etymology": {
       "status": "unverified",
-      "text": "이 표현 전체의 역사적 기원은 이번 검토에서 확증하지 못했다. 구성 단어의 그림이나 현대적 뜻을 실제 어원으로 단정하지 않는다."
+      "text": "어원 확인 안 됨"
     },
     "pronunciation": {
       "stress": "base 끝은 /z/가 아닌 /s/.",
@@ -845,7 +845,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "from my perspective / from a different perspective. put something in perspective는 전체 맥락에서 균형 있게 보다.",
     "etymology": {
       "status": "verified",
-      "text": "중세 라틴어의 광학 용어를 거쳐 라틴어 perspicere(자세히 보다·꿰뚫어 보다) 계열로 이어진다. 시각과 원근법에서 정신적 관점으로 확대되었다.",
+      "text": "영어에서는 처음에 광학을 가리켰다. 고프랑스어 perspective와 중세 라틴어 perspectiva ars에서 들어왔으며, 더 거슬러 올라가면 라틴어 perspicere(자세히 보다·꿰뚫어 보다)와 관련된다. 이후 원근법과 비유적 관점이라는 뜻으로도 쓰였다.",
       "source": "https://www.etymonline.com/word/perspective",
       "checked": "2026-11-21"
     },
@@ -1035,7 +1035,7 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "negotiate with + 상대; negotiate a price/contract처럼 협상할 조건은 직접목적어. negotiate about/over + 쟁점도 가능.",
     "etymology": {
       "status": "verified",
-      "text": "negotiation에서 역형성되었거나 라틴어 negotiari(사업을 하다)에서 온 것으로 설명된다. negotium은 neg-(없음)와 otium(여가)의 결합이다. 경로를 하나로 단정하지 않는다.",
+      "text": "라틴어 negotiari(사업을 하다) 계열이다. 영어 동사가 negotiation에서 만들어졌는지, 라틴어 분사 negotiatus에서 직접 들어왔는지는 확인되지 않는다.",
       "source": "https://www.etymonline.com/word/negotiate",
       "checked": "2026-11-21"
     },
