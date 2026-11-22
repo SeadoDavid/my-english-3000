@@ -18,5 +18,10 @@ window.ENGLISH_MANIFEST = [
     "day": 4,
     "date": "2026-11-21",
     "file": "data/day-04.js"
+  },
+  {
+    "day": 5,
+    "date": "2026-11-22",
+    "file": "data/day-05.js"
   }
 ];
