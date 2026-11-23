@@ -465,9 +465,9 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "형용사로 be straightforward 또는 a straightforward answer. It is straightforward to set up처럼 가주어 구문에도 쓴다.",
     "etymology": {
       "status": "verified",
-      "text": "straight와 forward의 결합. 곧장 앞으로 나아간다는 뜻에서 말이나 태도가 솔직하고 직접적이라는 비유적 용법도 생겼다.",
+      "text": "straight와 forward의 결합이다. 19세기 초 영어에서 곧장 앞으로 나아간다는 뜻과 말이 솔직하다는 비유적 용법이 모두 확인된다.",
       "source": "https://www.etymonline.com/word/straightforward",
-      "checked": "2026-11-21"
+      "checked": "2026-11-23"
     },
     "pronunciation": {
       "stress": "forward 부분에 주강세.",
@@ -579,9 +579,9 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "relevant to + 주제·사람. relevant with가 아니라 to를 기본 결합으로 익힌다. 부정형 irrelevant.",
     "etymology": {
       "status": "verified",
-      "text": "프랑스어 relevant를 거쳐 라틴어 relevare(가볍게 하다·돕다) 계열로 이어진다. 오늘날 뜻을 re와 levant의 임의 분해로 설명하지 않는다.",
+      "text": "영어에는 프랑스어 relevant에서 들어왔다. 프랑스어 형태는 중세 라틴어 relevantem으로, 더 거슬러 올라가면 ‘가볍게 하다’ 또는 ‘돕다’를 뜻한 라틴어 relevare로 이어진다.",
       "source": "https://www.etymonline.com/word/relevant",
-      "checked": "2026-11-21"
+      "checked": "2026-11-23"
     },
     "pronunciation": {
       "stress": "첫 음절 rel에 강세.",
@@ -693,9 +693,9 @@ window.ENGLISH_LESSONS[4] = [
     "grammar": "resilient to + 충격·변화. 회복력 자체를 말하는 명사는 resilience. resiliently는 부사.",
     "etymology": {
       "status": "verified",
-      "text": "라틴어 resilire(뒤로 뛰다)의 분사형에서 왔다. 눌린 물체가 돌아오는 물리적 뜻에서 사람이 어려움을 극복한다는 비유로 확장되었다.",
+      "text": "라틴어 resilire(뒤로 뛰다)의 현재분사에서 왔다. 영어에서는 17세기에 제자리로 튀어 돌아온다는 뜻이 쓰였고, 19세기에는 사람이 어려움에서 회복한다는 비유적 용법도 확인된다.",
       "source": "https://www.etymonline.com/word/resilient",
-      "checked": "2026-11-21"
+      "checked": "2026-11-23"
     },
     "pronunciation": {
       "stress": "zil에 강세, /z/는 성대를 울린다.",
