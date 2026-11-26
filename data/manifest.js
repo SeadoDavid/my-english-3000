@@ -7,5 +7,6 @@ window.ENGLISH_MANIFEST = [
   {"day":6,"date":"2026-11-23","file":"data/day-06.js"},
   {"day":7,"date":"2026-11-24","file":"data/day-07.js"},
   {"day":8,"date":"2026-11-25","file":"data/day-08.js"},
-  {"day":9,"date":"2026-11-26","file":"data/day-09.js"}
+  {"day":9,"date":"2026-11-26","file":"data/day-09.js"},
+  {"day":10,"date":"2026-11-27","file":"data/day-10.js"}
 ];
